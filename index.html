@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero Automático</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <h1>Cajero Automático DollarDude</h1>
+
+    <div id="SeleccionarCuenta">
+        <h2>Selecciona tu cuenta</h2>
+        <button onclick="seleccionarCuenta(0)">Magaly Rivas</button>
+        <button onclick="seleccionarCuenta(1)">Javier Montoya</button>
+        <button onclick="seleccionarCuenta(2)">Leo Padilla</button>
+    </div>
+
+    <div id="ingresoPassword" class="hidden">
+        <h2>Ingresa el password</h2>
+        <input type="password" id="password" placeholder="****">
+        <button onclick="validarPassword()">Ingresar</button>
+        <p id="mensajeError" style="color: rgb(223, 13, 13);" class="hidden">Password incorrecto. Ingréselo nuevamente.</p>
+    </div>
+
+    <div id="opcionesCuenta" class="hidden">
+        <h2>Bienvenid@, <span id="nombreCuenta"></span></h2>
+        <button onclick="consultarSaldo()">Consultar saldo</button>
+        <button onclick="ingresarMonto()">Ingresar monto</button>
+        <button onclick="retirarMonto()">Retirar monto</button>
+    </div>
+
+    <div id="ingresoMonto" class="hidden">
+        <h3>Ingresa el monto</h3>
+        <input type="number" id="monto" placeholder="Monto">
+        <button onclick="procesarMonto()">Procesar</button>
+        <button onclick="cancelarOperacion()">Cancelar</button>
+    </div>
+
+    <script src="./cajero.js"></script>
+</body>
+</html>
