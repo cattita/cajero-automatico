@@ -1,7 +1,7 @@
 Las cuentas disponibles y contraseñas asociadas son:
-•	Magaly Rivas – Contraseña: 0425
-•	Javier Montoya – Contraseña: 2789
-•	Leo Padilla – Contraseña: 1963
+•	Magaly Rivas, Password: 0425
+•	Javier Montoya, Password: 2789
+•	Leo Padilla, Password: 1963
 
 Funcionamiento del sistema:
 Al ingresar al Cajero Automático, el usuario podrá seleccionar una de las cuentas disponibles para interactuar. 
